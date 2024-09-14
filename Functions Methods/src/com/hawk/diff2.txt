@@ -1,0 +1,7 @@
+public static void main(){
+	name = "Hawk";
+	change(name);
+}
+change(naam){
+	print(naam);
+}
