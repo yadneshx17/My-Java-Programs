@@ -1,0 +1,63 @@
+Yes, in Java, "pass-by-value" means that when you pass an argument to a method, the method receives a copy of the value. When dealing with objects, this means a copy of the reference to the object is passed, not the object itself. Here’s a breakdown:
+
+### Primitive Data Types:
+For primitive data types (like `int`, `float`, `char`, etc.), the actual value is passed:
+```java
+public static void main(String[] args) {
+    int x = 5;
+    modifyPrimitive(x);
+    System.out.println(x); // Prints 5
+}
+
+static void modifyPrimitive(int num) {
+    num = 10; // Changes only the local copy of num
+}
+```
+In this case, `x` remains 5 because `modifyPrimitive` only modifies its local copy of `num`.
+
+### Reference Data Types (Objects):
+For objects, a copy of the reference to the object is passed:
+```java
+public static void main(String[] args) {
+    Integer a = 10;
+    Integer b = 20;
+    swap(a, b);
+    System.out.println(a + " " + b); // Prints 10 20
+}
+
+static void swap(Integer a, Integer b) {
+    Integer temp = a;
+    a = b;
+    b = temp;
+    // Only local copies of a and b references are swapped
+}
+```
+Here, `a` and `b` in the `main` method remain unchanged because `swap` only swaps the local copies of the references.
+
+### Illustration:
+Consider the following analogy to understand this better:
+
+- **Primitive Data Type**: If you have a box with a number in it (like 5) and you give a copy of the number to someone, whatever they do with their copy doesn't affect your original number.
+
+- **Reference Data Type**: If you have a box with a pointer to an object (like a `Person` object) and you give a copy of the pointer to someone, they can use the pointer to modify the object's contents. However, if they change where their pointer points to, your pointer still points to the original object.
+
+### Example with Mutable Objects:
+If we use a mutable object, such as an array, the changes are reflected outside the method:
+
+```java
+public static void main(String[] args) {
+    Integer[] values = {10, 20};
+    swap(values);
+    System.out.println(values[0] + " " + values[1]); // Prints "20 10"
+}
+
+static void swap(Integer[] values) {
+    Integer temp = values[0];
+    values[0] = values[1];
+    values[1] = temp;
+}
+```
+In this case, the `swap` method modifies the contents of the `values` array, and the changes are visible in the `main` method because both `main` and `swap` hold references to the same array object.
+
+### Conclusion:
+Java's pass-by-value mechanism means that for objects, a copy of the reference is passed to methods. This allows methods to modify the object’s contents but not the reference itself. Understanding this distinction is crucial for effectively managing object state and behavior in Java.
