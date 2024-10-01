@@ -13,7 +13,7 @@ public class Input{
         // arr[0] = 23;
         // arr[3] = 233;
         // arr[4] = 543;
-        // internally it's stored like this >> [25, 45, 23, 233, 543]
+        // internally it's stored like this >> [23, 45, 23, 233, 543]
         // System.out.println(arr[3]);
         // System.out.println(arr[5]); // out of bound error coz nothing exist's on index 5 in array.
 
