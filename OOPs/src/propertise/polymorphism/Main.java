@@ -3,8 +3,12 @@ package propertise.polymorphism;
 public class Main {
     public static void main(String[] args) {
         Shapes shape = new Shapes();
-        Shapes circle = new Circle();
-        Shapes square = new Square();
+
+        // Circle circle = new Circle(); // normal
+        Shapes circle = new Circle(); 
+        
+        Square square = new Square(); //normal 
+        Shapes square = new Square(); // it should access the area of Which is in Shapes...but that not happens, it access which is in the Square.
 
 
         // in Method  overriding: type of method is called depend on the type of the object.
