@@ -1,2 +1,2 @@
-# My-Java-Programs
-Every Code which i have written while Learning Java and Data structures and algorithms in same, with My Comments as a vvvimp Notes.
+# My Java Programs
+A collection of all the programs I have written while learning Java, along with Data Structures and Algorithms.
