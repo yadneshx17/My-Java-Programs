@@ -9,6 +9,7 @@ public class Main {
         String fruit = in.next();
 
         // 1st
+        // ENHANCED SYNTAX
 //        switch (fruit) {
 //            case "Mango" -> System.out.println("That is King of fruits");
 //            case "Apple" -> System.out.println("Red sweet fruit");
@@ -122,7 +123,6 @@ switch (expression){
     default
         // do something
 }
-
 
 // Note :
 - cases have to be the same type as expressions, must be a constant a literal.

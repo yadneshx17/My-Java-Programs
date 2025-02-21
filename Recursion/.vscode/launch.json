@@ -1,0 +1,84 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "SubSeq",
+      "request": "launch",
+      "mainClass": "Strings.SubSeq",
+      "projectName": "Recursion_33e3876b"
+    },
+    {
+      "type": "java",
+      "name": "Stream",
+      "request": "launch",
+      "mainClass": "Strings.Stream",
+      "projectName": "Recursion_33e3876b"
+    },
+    {
+      "type": "java",
+      "name": "MergeSort",
+      "request": "launch",
+      "mainClass": "Sorting.MergeSort",
+      "projectName": "Recursion_33e3876b"
+    },
+    {
+      "type": "java",
+      "name": "Triangle",
+      "request": "launch",
+      "mainClass": "Patterns.Triangle",
+      "projectName": "Recursion_33e3876b"
+    },
+    {
+      "type": "java",
+      "name": "Find",
+      "request": "launch",
+      "mainClass": "RecursionArrayQue.Find",
+      "projectName": "Recursion_33e3876b"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "RecursionArrayQue.Main",
+      "projectName": "Recursion_33e3876b"
+    },
+    {
+      "type": "java",
+      "name": "BSrecursion",
+      "request": "launch",
+      "mainClass": "BSrecursion",
+      "projectName": "Recursion_33e3876b"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Recursion_33e3876b"
+    },
+    {
+      "type": "java",
+      "name": "NumberExRecur",
+      "request": "launch",
+      "mainClass": "NumberExRecur",
+      "projectName": "Recursion_33e3876b"
+    },
+    {
+      "type": "java",
+      "name": "NumberExample",
+      "request": "launch",
+      "mainClass": "NumberExample",
+      "projectName": "Recursion_33e3876b"
+    }
+  ]
+}

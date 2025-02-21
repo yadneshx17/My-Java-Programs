@@ -1,0 +1,112 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "intro",
+      "request": "launch",
+      "mainClass": "introduction.intro",
+      "projectName": "JAVA_fa3b578"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "JAVA_fa3b578"
+    },
+    {
+      "type": "java",
+      "name": "CountZeros",
+      "request": "launch",
+      "mainClass": "CountZeros",
+      "projectName": "JAVA_fa3b578"
+    },
+    {
+      "type": "java",
+      "name": "Reverse",
+      "request": "launch",
+      "mainClass": "Reverse",
+      "projectName": "JAVA_fa3b578"
+    },
+    {
+      "type": "java",
+      "name": "DigitProd",
+      "request": "launch",
+      "mainClass": "DigitProd",
+      "projectName": "JAVA_fa3b578"
+    },
+    {
+      "type": "java",
+      "name": "DigitSum",
+      "request": "launch",
+      "mainClass": "DigitSum",
+      "projectName": "JAVA_fa3b578"
+    },
+    {
+      "type": "java",
+      "name": "DigitProduct",
+      "request": "launch",
+      "mainClass": "DigitProduct",
+      "projectName": "JAVA_fa3b578"
+    },
+    {
+      "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "Factorial",
+      "projectName": "JAVA_fa3b578"
+    },
+    {
+      "type": "java",
+      "name": "Nto1",
+      "request": "launch",
+      "mainClass": "Nto1",
+      "projectName": "JAVA_fa3b578"
+    },
+    {
+      "type": "java",
+      "name": "Input",
+      "request": "launch",
+      "mainClass": "com.hawk.Input",
+      "projectName": "JAVA_8197b295"
+    },
+    {
+      "type": "java",
+      "name": "Swap",
+      "request": "launch",
+      "mainClass": "Swap",
+      "projectName": "JAVA_8197b295"
+    },
+    {
+      "type": "java",
+      "name": "Stringexample",
+      "request": "launch",
+      "mainClass": "Stringexample",
+      "projectName": "JAVA_8197b295"
+    },
+    {
+      "type": "java",
+      "name": "Voidexample",
+      "request": "launch",
+      "mainClass": "Voidexample",
+      "projectName": "JAVA_8197b295"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "sum",
+      "request": "launch",
+      "mainClass": "sum",
+      "projectName": "JAVA_8197b295"
+    }
+  ]
+}

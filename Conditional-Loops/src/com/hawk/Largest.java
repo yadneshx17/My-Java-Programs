@@ -35,7 +35,7 @@ public class Largest {
 //        System.out.println("Largest number between all three number is> " + max);
 
         // --------------------------------------------------------------------------
-        int max = Math.max(c, Math.max(a, b));
+        int max = Math.max(c, Math.max(a, b)); // built in function.
         System.out.println(max);
 
     }

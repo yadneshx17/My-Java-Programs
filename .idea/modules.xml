@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Conditional-Loops/Conditional-Loops.iml" filepath="$PROJECT_DIR$/Conditional-Loops/Conditional-Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Extra/Extra.iml" filepath="$PROJECT_DIR$/Extra/Extra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Functions Methods/Functions Methods.iml" filepath="$PROJECT_DIR$/Functions Methods/Functions Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA.iml" filepath="$PROJECT_DIR$/.idea/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java programs/Java programs.iml" filepath="$PROJECT_DIR$/Java programs/Java programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MathsForDSA/MathsForDSA.iml" filepath="$PROJECT_DIR$/MathsForDSA/MathsForDSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Switch-Nested Switch/Switch-Nested Switch.iml" filepath="$PROJECT_DIR$/Switch-Nested Switch/Switch-Nested Switch.iml" />
+    </modules>
+  </component>
+</project>

@@ -11,14 +11,15 @@ public class Conditionals {
             }
         */
 
-//        int salary = 25400;
-//        if (salary > 10000) {
-//            salary = salary + 2000;
-//        } else{
-//            salary = salary + 1000;
-//        }
-//        System.out.println(salary);
-
+        /*
+        int salary = 25400;
+        if (salary > 10000) {
+            salary = salary + 2000;
+        } else{
+            salary = salary + 1000;
+        }
+        System.out.println(salary);
+        */
 
         // multiple if-else
 //        if (salary > 10000){
@@ -33,6 +34,7 @@ public class Conditionals {
         int a = 10;
         int b = 20;
 
+        // OPERATORS:  && and || and !=
         //  &&
         if (a == 10 && b == 20){
             System.out.println("Hello World");
@@ -44,11 +46,8 @@ public class Conditionals {
         }
 
         //  !=
-        if (a != 35){
+        if (a != 35) {
             System.out.println("Hello World");
         }
-
-
-
     }
 }

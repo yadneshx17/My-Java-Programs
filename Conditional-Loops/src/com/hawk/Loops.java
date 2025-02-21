@@ -6,8 +6,9 @@ public class Loops {
     public static void main(String[] args) {
         /*
             Syntax of FOR LOOPS:
+
                 for(initialisation; condition; increment/decrement;){
-                // body
+                    // body
                 }
         */
 
@@ -17,7 +18,6 @@ public class Loops {
 //        }
 
 
-        /*
         // print numbers from 1 to n
         Scanner in = new Scanner(System.in);
         System.out.print("Enter a Number till you have to count: ");
@@ -27,36 +27,40 @@ public class Loops {
             System.out.println(num + "");
 //            System.out.println(num + ") " + "Hello World!!!");
         }
-        */
 
-        // While Loops
         /*
+            WHILE LOOP
+
             Syntax :
             while (condition){
                 // body
             }
-//      */
 
 
-//        int num = 1;
-//        while(num <= 5){
-//            System.out.println(num);
-//            num += 1;
-//        }
 
-        // do while
-        /*  Synatx :
+          int num = 1;
+          while(num <= 5){
+            System.out.println(num);
+            num += 1;
+          }
+
+        */
+
+
+        /*
+        Synatx: do while
 
             do {
-
+                   // Do Something.
             } while (conition);
 
          */
 
         // Gonna Execute at least once.
-        int n = 1;
-        do {
-            System.out.println("Hello world"); // aik bar execute hoga then condition is checked.
-        } while (n != 1);
+//
+//        int n = 1;
+//        do {
+//            System.out.println("Hello world"); // aik bar execute hoga then condition is checked.
+//        } while (n != 1);
     }
 }
